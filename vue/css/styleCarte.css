@@ -1,0 +1,118 @@
+.espaceHaut{
+	margin-top:10px;	
+}
+
+.carte{
+	border-style: solid;
+	border-width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carteTitre{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.tdCarte {
+	width : 40px;
+	height : 40px;	
+}
+
+.tdCarteNonDecouverte {
+	background-color: GREY;
+}
+
+.tdCarteBloquee {
+	background-color: BLACK;
+}
+
+.tdCarteDecouverte {
+	background-color: GREEN;
+}
+
+.tdEpee {
+	background-image: url(../IMG/epee.png);
+	background-repeat: no-repeat;
+	background-size:20px 20px;
+	background-position:center;
+}
+
+.tdPorte {
+	background-image: url(../IMG/portePetite.png);
+	background-repeat: no-repeat;
+	background-size:25px 25px;
+	background-position:center;
+}
+
+.boutonNord {
+	background-image:  url(../IMG/nord.png);
+	background-repeat: no-repeat;
+	width: 3rem;
+	height: 2.5rem;
+}
+
+.boutonSud {
+	background-image:  url(../IMG/sud.png);
+	background-repeat: no-repeat;
+	width: 3rem;
+	height: 2.5rem;
+}
+
+.boutonEst {
+	background-image:  url(../IMG/est.png);
+	background-repeat: no-repeat;
+	width: 2.5rem;
+	height: 3rem;
+}
+
+.boutonOuest {
+	background-image:  url(../IMG/ouest.png);
+	background-repeat: no-repeat;
+	width: 2.5rem;
+	height: 3rem;
+}
+
+.cartePerso {
+	border-radius: 10px 10px 0px 0px;
+	border-style: solid;
+	border-width: 1px;
+	padding:10px;
+	max-width:400px;	
+}
+
+
+.barre {
+	border-collapse: separate;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+}
+
+.barreVieOK {
+	width:10px;
+	height:10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:BLACK;
+	background-color: GREEN;
+}
+
+.barreMagieOK {
+	width:10px;
+	height:10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:BLACK;
+	background-color: BLUE;
+}
+
+.porte{
+	border-style: solid;
+	border-width: 1px;
+	padding:10px; 
+	width:400px;
+	margin-left: auto;
+	margin-right: auto;
+
+}

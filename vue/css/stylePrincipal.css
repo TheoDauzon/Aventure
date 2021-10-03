@@ -1,0 +1,56 @@
+body {
+  font-family: kufam, verdana;
+}
+
+h1 {
+		font-size : 200%;
+		text-align: center;
+		letter-spacing : 0.2em;
+}
+
+h2 {
+		font-size : 150%;
+		text-align: center;
+		letter-spacing : 0.1em;
+		margin : 1em;
+
+}
+
+input {
+	text-align: center;
+}
+
+.centrer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centrerTableau {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.txtPresentration
+{
+	font-size : 120%;
+	text-align: justify;
+	margin : 1em;
+
+}
+
+IMG.auCentre {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.formErrorMsg{
+	padding: 0.5em;
+	font-size: 80%;	
+	color: white;
+	background-color: #900;
+}
+
